@@ -7,7 +7,7 @@ import time
 ###### Add time to set here: #######
 # year, month, day, hour, minut, second, weekday (Mon=0)
 # leave the two -1 at the end as is
-t = time.struct_time(2023, 06, 28, 11, 53, 00, 2, -1, -1)
+t = time.struct_time(tm_year=2023, tm_mon=7, tm_mday=12, tm_hour=9, tm_min=23, tm_wday=2, tm_yday=-1, tm_isdst=-1)
 ######################################
 
 # Internal LED
